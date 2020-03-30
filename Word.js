@@ -1,7 +1,13 @@
+// 4. `Word.js` *should only* require `Letter.js`
+const Letter = require("./Letter.js");
+
 // * **Word.js**: Contains a class, `Word`, that depends on the `Letter`
 // class. This is used to create an object representing the current word
 // the user is attempting to guess. That means the class should define:
 
+class Word extends Letter {
+
+}
 //   * An array of `new` `Letter` objects representing the letters of
 //      the underlying word
 
